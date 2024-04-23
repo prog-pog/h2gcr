@@ -1,0 +1,53 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "create:crushed_raw_copper"
+    },
+    "transitionalItem": {
+        "item": "create:crushed_raw_copper"
+    },
+    "loops": 2,
+    "results": [
+        {
+            "chance": 90,
+            "item": "numismatics:spur"
+        },
+        {
+            "chance": 10,
+            "item": "create:copper_nugget",
+            "count": 9
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                  "item": "create:crushed_raw_copper"
+                },
+                {
+                  "amount": 1000,
+                  "fluid": "minecraft:lava",
+                  "nbt": {}
+                }
+            ],
+            "results": [
+                {
+                  "item": "create:crushed_raw_copper"
+                }
+            ]
+        },
+        {
+            "type": "createaddition:charging",
+            "input": {
+                "item": "create:crushed_raw_copper",
+                "count": 1
+            },
+            "result": {
+                "item": "create:crushed_raw_copper"
+            },
+            "energy": 100000000,
+            "maxChargeRate": 1000
+        }
+    ]
+}
