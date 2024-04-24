@@ -1,0 +1,1 @@
+tellraw @a {"text":"Thank you for chosing H2GCR!","hoverEvent":{"action":"show_text","value":"Hard 2 Get Create: Numismatics Currency"}}

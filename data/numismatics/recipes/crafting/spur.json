@@ -6,14 +6,14 @@
     "transitionalItem": {
         "item": "create:crushed_raw_copper"
     },
-    "loops": 2,
+    "loops": 10,
     "results": [
         {
-            "chance": 90,
+            "chance": 20,
             "item": "numismatics:spur"
         },
         {
-            "chance": 10,
+            "chance": 80,
             "item": "create:copper_nugget",
             "count": 9
         }
