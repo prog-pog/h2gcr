@@ -16,8 +16,9 @@ This datapack uses Minecraft 1.20.1 and the following Mods:
 
 ## Installation
 
-1) Download [**latest release**]()
+1) Download the **latest release**
 2) Open curseforge
-3) Go to the profile with the correct mods and version
+3) Go to the profile with the correct mods and version **MAKE SURE YOU HAVE CREATED A WORLD**
 4) click the **⋮** next to the play button
-5) 
+5) Select the open folder option(or something close to that)
+6) ...
